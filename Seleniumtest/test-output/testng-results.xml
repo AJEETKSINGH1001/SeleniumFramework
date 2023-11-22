@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-01T18:39:47 IST" name="Default suite" finished-at="2023-09-01T18:40:24 IST" duration-ms="36482">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T18:39:47 IST" name="Default test" finished-at="2023-09-01T18:40:24 IST" duration-ms="36482">
+      <class name="com.seleniumtests.Awer">
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:39:46 IST" name="setUpExtentReports" finished-at="2023-09-01T18:39:47 IST" duration-ms="1228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExtentReports -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:39:47 IST" name="setUp" finished-at="2023-09-01T18:39:52 IST" duration-ms="4420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidWebsiteURL()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:39:52 IST" name="testInvalidWebsiteURL" description="Test invalid website URL" finished-at="2023-09-01T18:39:56 IST" duration-ms="4247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidWebsiteURL -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:39:56 IST" name="tearDown" finished-at="2023-09-01T18:39:56 IST" duration-ms="641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidWebsiteURL status=SUCCESS method=Awer.testInvalidWebsiteURL()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:39:56 IST" name="setUp" finished-at="2023-09-01T18:39:59 IST" duration-ms="2079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testURLWithQueryString()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:39:59 IST" name="testURLWithQueryString" description="Test website URL with query string" finished-at="2023-09-01T18:40:08 IST" duration-ms="9253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURLWithQueryString -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:40:08 IST" name="tearDown" finished-at="2023-09-01T18:40:08 IST" duration-ms="600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testURLWithQueryString status=SUCCESS method=Awer.testURLWithQueryString()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:40:08 IST" name="setUp" finished-at="2023-09-01T18:40:11 IST" duration-ms="2131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidWebsiteURL()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:40:11 IST" name="testValidWebsiteURL" description="Test valid website URL" finished-at="2023-09-01T18:40:23 IST" duration-ms="12487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidWebsiteURL -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:40:23 IST" name="tearDown" finished-at="2023-09-01T18:40:24 IST" duration-ms="507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidWebsiteURL status=SUCCESS method=Awer.testValidWebsiteURL()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.seleniumtests.Awer@2d1ef81a]" started-at="2023-09-01T18:40:24 IST" name="tearDownExtentReports" finished-at="2023-09-01T18:40:24 IST" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentReports -->
+      </class> <!-- com.seleniumtests.Awer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
